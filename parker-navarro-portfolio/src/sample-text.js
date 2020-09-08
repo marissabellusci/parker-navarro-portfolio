@@ -1,84 +1,38 @@
-// This is just some sample data so you don't have to think of your own!
-const fishes = {
-  fish1: {
-    name: "Pacific Halibut",
-    image: "/images/hali.jpg",
+// This is just some sample data to fill space
+const projects = {
+  project1: {
+    name: "Project 1",
+    image: "#",
     desc:
-      "Everyone’s favorite white fish. We will cut it to the size you need and ship it.",
-    price: 1724,
-    status: "available"
+      "My first project. Here is where I first gained a foundational knowledge in [x, y, and z].",
+    skills: "Communication, broadcasting, news reporting",
   },
 
-  fish2: {
-    name: "Lobster",
-    image: "/images/lobster.jpg",
+  project2: {
+    name: "Project 2",
+    image: "#",
     desc:
-      "These tender, mouth-watering beauties are a fantastic hit at any dinner party.",
-    price: 3200,
-    status: "available"
+      "Crowd-sourced content is one of my go-to strategies for follower engagement",
+    skills: "Copywriting, something, somethingsomething"
   },
 
-  fish3: {
-    name: "Sea Scallops",
-    image: "/images/scallops.jpg",
+  project3: {
+    name: "Project 3",
+    image: "#",
     desc:
-      "Big, sweet and tender. True dry-pack scallops from the icey waters of Alaska. About 8-10 per pound",
-    price: 1684,
-    status: "unavailable"
+      "Breaking news might be the most thrilling part of my job. Here is something, somethingsomething",
+    skills: "something, something, something"
   },
 
-  fish4: {
-    name: "Mahi Mahi",
-    image: "/images/mahi.jpg",
+  project4: {
+    name: "Project 4",
+    image: "#",
     desc:
-      "Lean flesh with a mild, sweet flavor profile, moderately firm texture and large, moist flakes. ",
-    price: 1129,
-    status: "available"
+      "A huge part of my current job is constantly monitoring Twitter for any breaking recruiting or running news, so that our social media feeds can remain the go-to place for high school running news. ",
+    skills: "something, something, something"
   },
 
-  fish5: {
-    name: "King Crab",
-    image: "/images/crab.jpg",
-    desc:
-      "Crack these open and enjoy them plain or with one of our cocktail sauces",
-    price: 4234,
-    status: "available"
-  },
 
-  fish6: {
-    name: "Atlantic Salmon",
-    image: "/images/salmon.jpg",
-    desc:
-      "This flaky, oily salmon is truly the king of the sea. Bake it, grill it, broil it...as good as it gets!",
-    price: 1453,
-    status: "available"
-  },
-
-  fish7: {
-    name: "Oysters",
-    image: "/images/oysters.jpg",
-    desc: "A soft plump oyster with a sweet salty flavor and a clean finish.",
-    price: 2543,
-    status: "available"
-  },
-
-  fish8: {
-    name: "Mussels",
-    image: "/images/mussels.jpg",
-    desc:
-      "The best mussels from the Pacific Northwest with a full-flavored and complex taste.",
-    price: 425,
-    status: "available"
-  },
-
-  fish9: {
-    name: "Jumbo Prawns",
-    image: "/images/prawns.jpg",
-    desc:
-      "With 21-25 two bite prawns in each pound, these sweet morsels are perfect for shish-kabobs.",
-    price: 2250,
-    status: "available"
-  }
 };
 
-export default fishes;
+export default projects;
