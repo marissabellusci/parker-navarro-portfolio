@@ -228,11 +228,12 @@ html {
   font-size: 62.5%;
 }
 body {
-  background: #d4d4d4;
+  background: linear-gradient(rgb(218, 250, 247),white, rgb(178, 207, 207)) no-repeat;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
+  min-height: 100vh;
 }
 h1 {
   font-family: 'blanchcaps_inline', sans-serif;
@@ -250,12 +251,31 @@ h6 {
 }
 h2 {
   text-align: center;
-  margin-top: 0;
-  margin-bottom: 2rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  font-size: 10rem;
 }
 h3 {
-  font-size: 3rem;
+  font-size: 4rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  background-color: black;
 }
+
+h3 > a {
+  /*margin: 6rem;*/
+  color: white;
+  text-decoration: none;
+  padding: 2rem;
+}
+
+h3 > a:hover{
+  background: white;
+  color: black;
+}
+
 header.top {
   text-align: center;
 }
@@ -357,29 +377,6 @@ header.top h3:after {
   flex-basis: 50%;
   -webkit-transform: translateX(-50%) rotateY(10deg) translateX(50%) scale(1.08) translateX(24px);
           transform: translateX(-50%) rotateY(10deg) translateX(50%) scale(1.08) translateX(24px);
-}
-input#fold:not(:checked) ~ #main .catch-of-the-day > * {
-  -webkit-transform: none;
-          transform: none;
-}
-label[for="fold"] {
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  text-transform: uppercase;
-  font-size: 1.3rem;
-  background: #000;
-  color: #fff;
-  border: 2px solid #000;
-  cursor: pointer;
-  padding: 0.5rem 1rem;
-}
-input#fold {
-  display: none;
-}
-input#fold:checked + label {
-  background: #fff;
-  color: #000;
 }
 ul {
   list-style: none;
