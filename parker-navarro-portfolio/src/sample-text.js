@@ -31,8 +31,6 @@ const projects = {
       "A huge part of my current job is constantly monitoring Twitter for any breaking recruiting or running news, so that our social media feeds can remain the go-to place for high school running news. ",
     skills: "something, something, something"
   },
-
-
 };
 
 export default projects;
