@@ -1,3 +1,8 @@
+#main {
+  font-family: 'Gayathri', sans-serif;
+
+}
+
 .order-enter {
   -webkit-transform: translateX(-120%);
           transform: translateX(-120%);
@@ -50,20 +55,7 @@
   -webkit-transform: translateY(-100%) scale(3);
           transform: translateY(-100%) scale(3);
 }
-@font-face {
-  font-family: "haymakerregular";
-  src: url("./fonts/haymaker-webfont.eot");
-  src: url("./fonts/haymaker-webfont.eot?#iefix") format("embedded-opentype"), url("./fonts/haymaker-webfont.woff") format("woff"), url("./fonts/haymaker-webfont.ttf") format("truetype"), url("./fonts/haymaker-webfont.svg#haymakerregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'blanchcaps_inline';
-  src: url("./fonts/blanch_caps_inline-webfont.eot");
-  src: url("./fonts/blanch_caps_inline-webfont.eot?#iefix") format('embedded-opentype'), url("./fonts/blanch_caps_inline-webfont.woff") format('woff'), url("./fonts/blanch_caps_inline-webfont.ttf") format('truetype'), url("./fonts/blanch_caps_inline-webfont.svg#blanchcaps_inline") format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+
 article,
 aside,
 details,
@@ -247,28 +239,29 @@ h4,
 h5,
 h6 {
   font-weight: normal;
-  font-family: 'haymakerregular', sans-serif;
+  font-family: 'Gayathri',sans-serif;
 }
 h2 {
   text-align: center;
   margin-top: 10rem;
-  margin-bottom: 10rem;
-  font-size: 10rem;
+  margin-bottom: 5rem;
+  font-size: 15rem;
 }
 h3 {
-  font-size: 4rem;
+  font-size: 5rem;
   text-align: center;
   display: flex;
   justify-content: space-evenly;
   color: white;
   background-color: black;
+  height: fit-content;
 }
 
 h3 > a {
-  /*margin: 6rem;*/
   color: white;
   text-decoration: none;
   padding: 2rem;
+  margin: auto;
 }
 
 h3 > a:hover{
