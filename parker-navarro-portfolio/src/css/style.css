@@ -1,6 +1,20 @@
 #main {
   font-family: 'Gayathri', sans-serif;
+}
 
+.content {
+  display: flex;
+  flex-direction: row;
+
+}
+
+#control-panel {
+  width: 50vw;
+  height: 50vh;
+  border: solid;
+  position: fixed;
+  right: 0;
+  bottom: 0;
 }
 
 .order-enter {
@@ -228,10 +242,12 @@ body {
   min-height: 100vh;
 }
 h1 {
-  font-family: 'blanchcaps_inline', sans-serif;
+  font-family: 'Gayathri',sans-serif;
   text-align: center;
   font-weight: normal;
-  margin: 0;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  font-size: 15rem;
 }
 h2,
 h3,
@@ -241,11 +257,13 @@ h6 {
   font-weight: normal;
   font-family: 'Gayathri',sans-serif;
 }
+
 h2 {
-  text-align: center;
-  margin-top: 10rem;
-  margin-bottom: 5rem;
-  font-size: 15rem;
+  text-align: left;
+  margin: 0;
+  font-size: 10rem;
+  padding: 0 5rem 0 5rem;
+
 }
 h3 {
   font-size: 5rem;
