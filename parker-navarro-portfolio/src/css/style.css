@@ -15,6 +15,11 @@
   position: fixed;
   right: 0;
   bottom: 0;
+  display: none;
+}
+
+#control-panel.active{
+  display: block;
 }
 
 .order-enter {
@@ -259,7 +264,7 @@ h6 {
 }
 
 h2 {
-  text-align: left;
+  text-align: center;
   margin: 0;
   font-size: 10rem;
   padding: 0 5rem 0 5rem;
@@ -285,6 +290,18 @@ h3 > a {
 h3 > a:hover{
   background: white;
   color: black;
+}
+
+h4 {
+  display: block;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.about-para {
+  padding: 0 10rem 2rem 10rem;
+  font-size: 2.5rem;
+  text-align: center;
 }
 
 header.top {
@@ -647,4 +664,50 @@ input[type=submit].twitter:after {
 .store-selector button[type="text"] {
   text-align: center;
   font-size: 3rem;
+}
+
+.social-media-para {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.social-tile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+}
+
+.socials-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.on-camera-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.twitter-timeline {
+  margin: 2rem;
+  max-height: 100rem;
+  display: flex;
+  overflow: scroll;
+
+}
+
+.resume-para {
+  display: flex;
+  justify-content: center;
+}
+
+h4 > a {
+  text-decoration: none;
+  color: black;
 }

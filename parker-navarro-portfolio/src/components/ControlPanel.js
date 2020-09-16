@@ -10,6 +10,7 @@ class ControlPanel extends React.Component{
         owner: null,
       }
 
+
       render(){
           return(
               <div id="control-panel">
@@ -32,5 +33,5 @@ class ControlPanel extends React.Component{
       }
 
 }
-
+    
 export default ControlPanel;

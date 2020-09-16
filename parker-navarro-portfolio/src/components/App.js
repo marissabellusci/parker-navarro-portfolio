@@ -11,8 +11,11 @@ class App extends React.Component{
     }
 
     render(){
+
         return(
             <div>
+            
+
             <h1>Parker Navarro</h1>
             <h3 id="navbar">
                 <a href="#about">About</a>
@@ -36,7 +39,7 @@ class App extends React.Component{
 
             <section id="editor">
 
-                <ControlPanel />
+                <ControlPanel/>
 
             </section>
 
