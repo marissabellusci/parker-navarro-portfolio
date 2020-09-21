@@ -18,6 +18,8 @@ class About extends React.Component{
 
             </p>
 
+            <img src="./css/images/pnavarro.jpg" alt=""></img>
+
             <p className="about-para">
             Since October of 2017, I have worked dual positions for FloSports, a network of websites specializing in live-streaming sports events, as well as the news content that comes with it. I was hired based on my strong communications background and over the past year, I have gotten to explore two different positions at FloSports - one focusing on external marketing relations and the other focusing on social media coverage, along with on-air hosting, podcasting, video production, and live event coverage.
 

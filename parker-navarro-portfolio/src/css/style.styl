@@ -17,8 +17,6 @@ header.top
       color orange
       justify-content: center;
       align-items: center;
-      background url('images/anchor.svg') center no-repeat;
-      background-size cover
       padding 0 1rem
       .of
         padding-right 2rem
@@ -31,7 +29,6 @@ header.top
     position relative
     display inline-block
     span
-      background white
       position relative
       z-index 2
       padding-left 1rem
@@ -64,7 +61,6 @@ header.top
     padding 2rem
     border 1rem double lighten(black,10%)
     position relative
-    background white
     transition all 0.3s
     box-shadow 0 5px 5px rgba(0,0,0,0.1)
     overflow scroll
@@ -99,12 +95,6 @@ label[for="fold"]
   border 2px solid black
   cursor pointer
   padding 0.5rem 1rem
-
-input#fold
-  display none
-  &:checked + label
-    background white
-    color black
 
 ul
   list-style none

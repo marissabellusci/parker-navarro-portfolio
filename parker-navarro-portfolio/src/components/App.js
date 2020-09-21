@@ -29,9 +29,6 @@ class App extends React.Component{
             </ul>
 
           </nav>
-   
-
-       
 
             <div className="content">
             <section id="editable">
