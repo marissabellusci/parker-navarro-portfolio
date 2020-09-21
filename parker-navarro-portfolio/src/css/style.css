@@ -933,6 +933,10 @@ nav a {
     margin: auto;
   }
 
+  .resume-para > a > iframe {
+    max-width: 90vw;
+  }
+
   #app {
     width: 100vw;
     margin: auto;
