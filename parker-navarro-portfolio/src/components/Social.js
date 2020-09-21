@@ -63,7 +63,7 @@ class Social extends React.Component{
 
             <div className="social-tile">
             <h4>Twitter Profiles</h4>
-            <p className="social-media-para">
+            <p className="social-media-para twitter-timelines">
             <a className="twitter-timeline" data-lang="en" data-width = "800" data-height = "600" href="https://twitter.com/ParkerANavarro?ref_src=twsrc%5Etfw">Tweets by @ParkerANavarro</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             <a className="twitter-timeline" data-lang="en" data-width = "800" data-height = "600" href="https://twitter.com/flosports?ref_src=twsrc%5Etfw">Tweets by flosports</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </p>
